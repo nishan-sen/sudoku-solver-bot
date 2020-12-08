@@ -187,7 +187,7 @@ public class MainProgram {
 		int[][] sudokuBoard = new int[9][9]; //actual board
 
 		Tesseract tesseract = new Tesseract();
-		tesseract.setDatapath("C:/Users/Nishan/eclipse-workspace/SudokuSolverBot2/Tess4J");
+		tesseract.setDatapath(".../Tess4J"); // path to Tess4J directory
 
 		//OCR to Board
 		int position = 0;
